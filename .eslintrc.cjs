@@ -1,4 +1,8 @@
-module.exports = {
+import { ModuleNode } from "vite";
+
+ModuleNode.exports = {
+
+
   env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
