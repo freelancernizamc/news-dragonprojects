@@ -41,7 +41,7 @@ const router = createBrowserRouter([
             {
                 path: ':id',
                 element: <Category></Category>,
-                loader: ({ params }) => fetch(`http://localhost:5000/categories/${params.id}`)
+                loader: ({ params }) => fetch(`https://dragon-news-server-freelancernizamc.vercel.app/categories/${params.id}`)
             }
 
         ]
